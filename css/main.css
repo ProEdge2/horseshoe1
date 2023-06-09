@@ -5266,7 +5266,7 @@ main.-menuSidebarMargin {
 }
 
 .blogCard.-type-1 .blogCard__title {
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 36px;
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);

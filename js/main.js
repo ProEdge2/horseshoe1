@@ -342,22 +342,22 @@ function hero5Reveal() {
     })
 }
 
-function toTopButton() {
-  const button = document.querySelector('.js-top-button')
-
-  if (!button) return
-
-  new ScrollMagic.Scene({ duration: '300px', })
-    .setClassToggle(button, 'is-hidden')
-    .addTo(App.SMcontroller)
-
-  button.addEventListener('click', () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    })
-  })
-}
+// function toTopButton() {
+//   const button = document.querySelector('.js-top-button')
+//
+//   if (!button) return
+//
+//   new ScrollMagic.Scene({ duration: '300px', })
+//     .setClassToggle(button, 'is-hidden')
+//     .addTo(App.SMcontroller)
+//
+//   button.addEventListener('click', () => {
+//     window.scrollTo({
+//       top: 0,
+//       behavior: "smooth",
+//     })
+//   })
+// }
 
 function tabsSlider() {
   const slider = document.querySelector('.js-tabsSlider')
